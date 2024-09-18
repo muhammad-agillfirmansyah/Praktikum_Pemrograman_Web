@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posttest 2 - Bukti Pemesanan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="logo-resto.jpeg" alt="Logo Resto" class="logo">
+      <h2>Bukti Pemesanan</h2>
+    </header>
+
+    <section class="info">
+      <div class="info-box">
+        <span>Nama Pelayan: <strong>Muh Agill Firmansyah</strong></span>
+        <span>Tanggal Pemesanan: <input type="date"></span>
+      </div>
+      <div class="info-box">
+        <span>Nama Pemesan: <strong>Chandra Risky Pahlawan</strong></span>
+        <span>Alamat Pemesan: Jl. Merdeka No. 15, Kota Balikpapan</span>
+      </div>
+    </section>
+
+    <table class="order-table">
+      <thead>
+        <tr>
+          <th>Nama Menu</th>
+          <th>Jumlah</th>
+          <th>Harga Satuan</th>
+          <th>Total Harga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="nasi-goreng.jpeg" alt="Nasi Goreng Spesial" class="menu-img"><br>Nasi Goreng Spesial</td>
+          <td><input type="text" value="1"> Porsi</td>
+          <td>Rp 25.000</td>
+          <td>Rp 25.000</td>
+        </tr>
+        <tr>
+          <td><img src="es-teh-manis.jpeg" alt="Es Teh Manis" class="menu-img"><br>Es Teh Manis</td>
+          <td><input type="text" value="1"> Gelas</td>
+          <td>Rp 5.000</td>
+          <td>Rp 5.000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">Total Pesanan</th>
+          <td colspan="2">Rp 30.000</td>
+        </tr>
+        <tr>
+          <th colspan="2">Pajak</th>
+          <td colspan="2">Rp 2.000</td>
+        </tr>
+        <tr>
+          <th colspan="2">Total Tagihan</th>
+          <td colspan="2">Rp 32.000</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <section class="payment">
+      <h3>Metode Pembayaran</h3>
+      <div class="payment-options">
+        <label><input type="radio" name="payment" value="BCA"> Bank BCA</label>
+        <label><input type="radio" name="payment" value="BRI"> Bank BRI</label>
+        <label><input type="radio" name="payment" value="OVO"> OVO</label>
+        <label><input type="radio" name="payment" value="GoPay"> GoPay</label>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul>
+        <li>Nama: Muh Agill Firmansyah</li>
+        <li>NIM: 2309106018</li>
+        <li>Praktikum Web: Posttest 2</li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>

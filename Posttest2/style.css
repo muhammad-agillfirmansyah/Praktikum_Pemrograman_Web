@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f5f7fa 30%, #c3cfe2);
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #4a90e2;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* Info Section */
+.info {
+  margin-bottom: 30px;
+}
+
+.info-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e8f0fe;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+strong {
+  color: #4a90e2;
+}
+
+input[type="date"] {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Order Table */
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.order-table th,
+.order-table td {
+  padding: 15px;
+  text-align: left;
+}
+
+.order-table thead {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.order-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.order-table tbody tr:hover {
+  background-color: #e3f2fd;
+}
+
+.order-table th {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.menu-img {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+}
+
+tfoot th,
+tfoot td {
+  background-color: #e8f0fe;
+  font-weight: bold;
+}
+
+/* Payment Section */
+.payment {
+  margin-bottom: 20px;
+}
+
+.payment h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.payment-options label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.payment-options input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  padding: 15px;
+  text-align: center;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 5px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin: 5px 0;
+}
