@@ -1,0 +1,178 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e09, #d0e);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header .menu {
+    margin-top: 10px;
+}
+
+header .menu a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .menu a:hover {
+    color: #ffd700;
+}
+
+/* Form Section */
+.form-section {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    padding: 30px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+    border-bottom: 2px solid #ffd700;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.form-section label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #444;
+    text-align: left;
+}
+
+.form-section input[type="text"],
+.form-section input[type="number"],
+.form-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-section textarea {
+    height: 100px;
+}
+
+.form-section button {
+    background-color: #ffd700;
+    color: #444;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-section button:hover {
+    background-color: #e6b800;
+}
+
+/* Table Section */
+.product-section {
+    margin: 50px auto;
+    max-width: 900px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.product-section h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffd700;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+table thead th {
+    background-color: #ffd700;
+    color: #333;
+    text-align: left;
+    padding: 12px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody td {
+    padding: 12px;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #ffe066;
+}
+
+table a {
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table a:hover {
+    color: #ff7f50;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .menu a {
+        margin-bottom: 10px;
+    }
+
+    .form-section,
+    .product-section {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
